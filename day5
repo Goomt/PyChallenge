@@ -53,7 +53,7 @@ for brand in brands:
       if pay:
         pay = pay.text.replace(u'\xa0', ' ')
 
-      date = row.find("td", {"class": "date"})
+      date = row.find("td", {"class": "regDate"})
       if date:
         date = date.text.replace(u'\xa0', ' ')
 
